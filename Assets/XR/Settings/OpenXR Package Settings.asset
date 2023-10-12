@@ -56,6 +56,7 @@ MonoBehaviour:
   features:
   - {fileID: 8193509175168885670}
   - {fileID: -3567382519666824252}
+  - {fileID: 5552421731431087677}
   - {fileID: -3754287952921605357}
   - {fileID: 2451774068508542975}
   - {fileID: -6550691634177345671}
@@ -290,6 +291,7 @@ MonoBehaviour:
   - {fileID: -1099291194593428206}
   - {fileID: -8558053498796356063}
   - {fileID: 662291473736572295}
+  - {fileID: 6105126745826283843}
   - {fileID: 4723014859589324012}
   - {fileID: -4332328581427706905}
   - {fileID: -5301245757244981005}
@@ -621,6 +623,50 @@ MonoBehaviour:
   priority: 0
   required: 0
   message: Hello from C#!
+--- !u!114 &5552421731431087677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c465bd23c9c4fb442ae89117552a5f3f, type: 3}
+  m_Name: HandTrackingFeature Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Ultraleap Hand Tracking
+  version: 1.0.0
+  featureIdInternal: com.ultraleap.tracking.openxr.feature.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking XR_ULTRALEAP_hand_tracking_forearm
+  company: Ultraleap
+  priority: 0
+  required: 0
+  metaPermissions: 1
+  metaHighFrequency: 1
+--- !u!114 &6105126745826283843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c465bd23c9c4fb442ae89117552a5f3f, type: 3}
+  m_Name: HandTrackingFeature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Ultraleap Hand Tracking
+  version: 1.0.0
+  featureIdInternal: com.ultraleap.tracking.openxr.feature.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking XR_ULTRALEAP_hand_tracking_forearm
+  company: Ultraleap
+  priority: 0
+  required: 0
+  metaPermissions: 1
+  metaHighFrequency: 1
 --- !u!114 &6256606753167147022
 MonoBehaviour:
   m_ObjectHideFlags: 0
