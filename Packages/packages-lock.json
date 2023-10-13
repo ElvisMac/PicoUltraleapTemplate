@@ -227,7 +227,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.openxr.picoxr": {
-      "version": "file:D:/SDKs/PICO Unity OpenXR SDK-Preview-110",
+      "version": "file:../LocalSDK/PICOUnityOpenXRSDKPreview110",
       "depth": 0,
       "source": "local",
       "dependencies": {
